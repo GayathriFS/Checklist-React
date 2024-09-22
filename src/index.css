@@ -1,0 +1,30 @@
+.list-item { 
+  display: flex; 
+  align-items: center; 
+  padding: 10px; 
+  border-bottom: 1px solid #66CCCC; /* Light blue border */
+  background-color: #E5F5F5; /* Soft blue-gray background */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-item:last-child { 
+  border-bottom: none; 
+}
+
+.checkbox { 
+  margin-right: 10px; 
+  accent-color: #8BC34A; /* Green checkbox accent */
+}
+
+.list-item:hover {
+  background-color: #C9E4CA; /* Light green hover background */
+}
+
+.checkbox:checked {
+  accent-color: #3E8E41; /* Darker green checked checkbox accent */
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
